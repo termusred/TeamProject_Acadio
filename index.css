@@ -78,3 +78,24 @@ nav {
     width: 15rem;
     height: 15rem;
 }
+.chiziq{
+    margin-bottom: 4rem;
+    width: 5rem;
+    height: 2px;
+    background-color: black;
+}
+.card-holder{
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    width: 90rem;
+    height: 40rem;
+   
+}
+.card:nth-child(even){
+    padding-top: 7rem;
+}
+.card{
+    border: 0px;
+    margin-left: 4rem;
+}
