@@ -53,10 +53,11 @@ nav {
     margin-left:24rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
-    -webkit-box-shadow: 100px 2px 28px 4px rgba(0, 0, 0, 1) inset;
-    -moz-box-shadow: 100px 2px 28px 4px rgba(0, 0, 0, 1) inset;
-    box-shadow: 100px 2px 28px 4px rgba(0, 0, 0, 1) inset;
 }
+.bottom-part_btn-part {
+    display: flex;
+    gap: 2rem;
+} 
 .big-boy {
     position: absolute;
     right: 0px;
@@ -98,4 +99,33 @@ nav {
 .card{
     border: 0px;
     margin-left: 4rem;
+}
+.info {
+    width: 22rem;
+}
+.videoPart {
+    display: flex;
+    height: 46rem;
+    color: white;
+    background: #26335D;
+}
+.videoPart_con1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    gap: 2rem;
+}
+.video {
+    margin-top: 14rem;
+}
+.videoPart_con2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
 }
