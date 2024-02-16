@@ -64,13 +64,22 @@ nav {
     z-index: 1;
     height: 49.3rem;
 }
+.CompaniesCon {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding: 10rem;
+    background: #26335D; 
+}
 .pas{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
     width: 80%;
 }
 .rasm{
+    border-radius: 5%;
     margin-left: 2rem;
     width: 15rem;
     height: 15rem;
@@ -82,6 +91,34 @@ nav {
     width: 100vw;
     padding: 10rem;
     background-color: #26335D;;
+}
+.chiziq{
+    margin-bottom: 4rem;
+    width: 5rem;
+    height: 2px;
+    background-color: black;
+}
+.CardSegment {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 60rem;
+    background: #26335D; 
+}
+.card-holder{
+    display: flex;
+    padding-top: 5rem;
+    width: 80%;
+    height: 40rem;
+    gap: 20rem;
+    background: #26335D; 
+}
+.card:nth-child(even){
+    margin-top: 7rem;
+}
+.card{
+    border: 0px;
+    height: 30rem;
 }
 .info {
     width: 22rem;
