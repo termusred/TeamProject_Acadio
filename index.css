@@ -2,6 +2,9 @@
     padding: 0px;
     margin: 0px;
 }
+h1 , p , h2 , h3 , span {
+    cursor: default;
+}
 nav {
     display: flex;
     position: fixed;
@@ -83,6 +86,14 @@ nav {
     margin-left: 2rem;
     width: 15rem;
     height: 15rem;
+    border-radius: 5%;
+}
+.CompaniesCon {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding: 10rem;
+    background-color: #26335D;;
 }
 .chiziq{
     margin-bottom: 4rem;
@@ -147,4 +158,17 @@ nav {
     flex-direction: column;
     width: 50%;
     height: 100%;
+}
+.Cources {
+    display: flex;
+    flex-direction: column;
+    height: 49rem;
+}
+.Curces_bottom{
+    display: flex;
+    flex-direction: row;
+}
+.photo {
+    width: 18rem;
+    height: 20rem;
 }
