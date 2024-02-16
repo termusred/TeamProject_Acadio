@@ -2,7 +2,7 @@
     padding: 0px;
     margin: 0px;
 }
-h1 , p , h2 , h3 , span {
+h1 , p , h4, span {
     cursor: default;
 }
 nav {
@@ -14,6 +14,10 @@ nav {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     background-color: rgba(0, 0, 0, 0.226);
+}
+a {
+    text-decoration: none;
+    color: white;
 }
 .nav_con1 {
     display: flex;
@@ -53,7 +57,7 @@ nav {
     flex-direction: column;
     height: 49.3rem;
     gap: 3rem;
-    margin-left:24rem;
+    margin-left: 3rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
 }
@@ -182,11 +186,113 @@ nav {
     gap: 1rem;
 }
 .Clients_card {
+    height: 30rem;
     padding: 1rem;
     border-radius: 5%;
+    background-color: white;
+    color: black;
+}
+.card-body {
+    color: black;
     background-color: white;
 }
 .photo {
     width: 16rem;
+    padding: 1rem;
     height: 20rem;
 }
+.Team_bottom {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    gap: 10rem;
+}
+.Team {
+    height: 70rem;
+    color: white;
+    background-color: #26335D;
+}
+.Team_text-part {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding-left: 12rem;
+    width: 70vw;
+    padding-bottom: 4rem;
+}
+.Team_card {
+    height: 30rem;
+    padding: 1rem;
+    border-radius: 5%;
+    background-color: white;
+    color: black;
+}
+.footer-dark {
+    padding:50px 0;
+    color:#f0f9ff;
+    background-color:#282d32;
+  }
+  
+  .footer-dark h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-dark ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-dark ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity:0.8;
+  }
+  .footer-dark .item.text {
+    margin-bottom:36px;
+  }
+  
+  .footer-dark .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+  }
+  
+  .footer-dark .item.social {
+    text-align:center;
+  }
+
+  
+  .footer-dark .item.social > a {
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+    margin:0 8px;
+    color:#fff;
+    opacity:0.75;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+  }
