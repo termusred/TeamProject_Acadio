@@ -162,13 +162,31 @@ nav {
 .Cources {
     display: flex;
     flex-direction: column;
-    height: 49rem;
+    align-items: baseline;
+    height: 60rem;
+    padding-top: 10rem;
+    color: white;
+    background-color: #26335D;
+}
+.Cources_text-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+    padding-bottom: 4rem;
 }
 .Curces_bottom{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    gap: 1rem;
+}
+.Clients_card {
+    padding: 1rem;
+    border-radius: 5%;
+    background-color: white;
 }
 .photo {
-    width: 18rem;
+    width: 16rem;
     height: 20rem;
 }
