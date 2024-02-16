@@ -68,16 +68,20 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 15rem;
-    width: 80rem;
-    height: 25rem;
-    border: solid 2px black;
-    /* background-color: aqua; */
+    width: 80%;
 }
 .rasm{
     margin-left: 2rem;
     width: 15rem;
     height: 15rem;
+    border-radius: 5%;
+}
+.CompaniesCon {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding: 10rem;
+    background-color: #26335D;;
 }
 .info {
     width: 22rem;
