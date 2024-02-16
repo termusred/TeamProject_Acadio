@@ -110,7 +110,7 @@ nav {
     padding-top: 5rem;
     width: 80%;
     height: 40rem;
-    gap: 20rem;
+    gap: 2rem;
     background: #26335D; 
 }
 .card:nth-child(even){
