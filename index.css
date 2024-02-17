@@ -5,6 +5,9 @@
 h1 , p , h4, span {
     cursor: default;
 }
+body {
+    overflow: auto;
+}
 nav {
     display: flex;
     position: fixed;
@@ -325,4 +328,13 @@ a {
 #Submit {
     width: 32rem;
     height: 2rem;
+}
+.SingInBox {
+    position: absolute ;
+    z-index: 20;
+    display: none;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: bisque;
 }
