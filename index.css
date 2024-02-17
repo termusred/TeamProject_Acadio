@@ -8,6 +8,7 @@ h1 , p , h4, span {
 body {
     overflow: auto;
 }
+
 nav {
     display: flex;
     position: fixed;
@@ -94,6 +95,10 @@ a {
     width: 15rem;
     height: 15rem;
     border-radius: 5%;
+    transition: all 2s;
+}
+.rasm:hover{
+    transform: scale(1.2);
 }
 .CompaniesCon {
     display: flex;
@@ -194,6 +199,10 @@ a {
     border-radius: 5%;
     background-color: white;
     color: black;
+    transition: all 2s;
+}
+.Clients_card:hover {
+    transform: scale(1.2);
 }
 .card-body {
     color: black;
@@ -203,6 +212,9 @@ a {
     width: 16rem;
     padding: 1rem;
     height: 20rem;
+}
+#Entered , #Entered2{
+    display: none;
 }
 .Team_bottom {
     display: flex;
@@ -214,6 +226,9 @@ a {
     height: 70rem;
     color: white;
     background-color: #26335D;
+}
+.card {
+    transition: all 2s;
 }
 .Team_text-part {
     display: flex;
@@ -229,6 +244,10 @@ a {
     border-radius: 5%;
     background-color: white;
     color: black;
+    transition: all 2s;
+}
+.Team_card:hover , .card:hover{
+    transform: scale(1.2);
 }
 .footer-dark {
     padding:50px 0;
