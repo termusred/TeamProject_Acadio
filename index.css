@@ -5,6 +5,9 @@
 h1 , p , h4, span {
     cursor: default;
 }
+a {
+    cursor: pointer;
+}
 body {
     overflow: auto;
 }
@@ -319,12 +322,16 @@ a {
     margin-bottom:0;
 }
 .SingUpBox {
-    position: absolute ;
-    z-index: 20;
     display: none;
     justify-content: center;
     width: 100vw;
     height: 100vh;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
     background-color: bisque;
 }
 .InputHolder {
@@ -349,11 +356,15 @@ a {
     height: 2rem;
 }
 .SingInBox {
-    position: absolute ;
-    z-index: 20;
     display: none;
     justify-content: center;
     width: 100vw;
     height: 100vh;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
     background-color: bisque;
 }

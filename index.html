@@ -44,12 +44,11 @@
                 <h1>Acadio</h1>
                 <a href="index.html">Home</a>
                 <a href="Product.html" id="Entered">Product</a>
-                <a href="">Pricing</a>
-                <a href="" id="Entered2">My Cabinet</a>
+                <a onclick="Move()">Pricing</a>
             </div>
             <div class="nav_con2">
-                <button class="btn btn-outline-warning" id="SignIn-button" onclick="SignIn()">Login</button>
-                <button class="SingUp-button btn btn-primary" id="SingUp-button" onclick="SignUp()">Join us</button>
+                <button class="Entered btn btn-outline-warning" id="SignIn-button" onclick="SignIn()">Login</button>
+                <button class="Entered SingUp-button btn btn-primary" id="SingUp-button" onclick="SignUp()">Join us</button>
             </div>
         </nav>
         <div class="bottom-part">
@@ -57,8 +56,8 @@
             <h1>25k+ students trust us</h1>
             <h4>Find the right instructor for you from over 10,000 teachers</h4>
             <div class="bottom-part_btn-part">
-                <button class="btn btn-primary">Join us</button>
-                <button class="btn btn-outline-warning" onclick="">Learn more</button>
+                <button class="btn btn-primary" onclick="SignUp()">Join us</button>
+                <button class="btn btn-outline-warning" onclick="SignUp()">Learn more</button>
             </div>
         </div>
         <img class="big-boy"src="Student-with-more-access-to-academic-resources-due-to-efforts-to-boost-student-retention-and-persistence.jpg" alt="">
@@ -69,7 +68,7 @@
             <p class="info">Problems trying to resolve the conflict between 
                 the two major realms of Classical physics: 
                 Newtonian mechanics     </p>
-                <button class="btn btn-outline-warning">Learn more</button>
+                <button class="btn btn-outline-warning" onclick="SignUp()">Learn more</button>
         </div>
         <div class="con2">
             <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/QdDbRW6Ng5M?si=tKZ5eL0jB-cT6YZ3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -127,7 +126,7 @@
           the two major realms of Classical physics: 
           Newtonian mechanics     </p>
       </div>
-      <div class="Curces_bottom">
+      <div class="Curces_bottom" id="Curces">
         <div class="Clients_card" style="width: 18rem;">
           <img class="photo"  src="https://ubrands.com/cdn/shop/products/5136E_4ctSTMontereyMidnight-4_Ubrands_530x@2x.jpg?v=1612546670" class="card-img-top" alt="...">
           <div class="card-body">
