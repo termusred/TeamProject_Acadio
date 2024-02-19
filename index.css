@@ -321,7 +321,7 @@ a {
     font-size:13px;
     margin-bottom:0;
 }
-.SingUpBox {
+.SingUpBox{
     display: none;
     justify-content: center;
     width: 100vw;
@@ -332,7 +332,7 @@ a {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: bisque;
+    background-color:#26335D;
 }
 .InputHolder {
     display: flex;
@@ -341,7 +341,8 @@ a {
     width: 60rem;
     padding-top: 12rem;
     gap: 2rem;
-    background-color: burlywood;
+    color: white;
+    background-color: #36498a;
 }
 #Password {
     width: 32rem;
@@ -366,5 +367,5 @@ a {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: bisque;
+    background-color:#26335D;
 }
