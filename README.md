@@ -1,1 +1,4 @@
-This project was made in early days and has some major issuse but soon will be updated to have database and better design and funtions
+A Acadio website made using [HTMl , CSS , JS]
+- Status : Not finished ❎
+- Live : Not hosted
+- DM me on reddit : u/crack_eater228
